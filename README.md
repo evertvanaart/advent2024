@@ -16,7 +16,7 @@ The table below shows the average core runtime of each solution, recorded over a
 
 | Day  | Part A (μs) | Part B (μs) |
 | :--: | ----------: | ----------: |
-|  01  |             |             |
+|  01  |       6,501 |       6,810 |
 |  02  |             |             |
 |  03  |             |             |
 |  04  |             |             |
