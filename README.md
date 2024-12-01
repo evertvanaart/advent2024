@@ -1,0 +1,43 @@
+# Advent of Code 2024
+
+Trying out Elixir this time around.
+
+```plain
+Usage: mix run main.exs <task> <input>
+ <task>     Day number (two digits) plus part ('a' or 'b')
+ <input>    Input file base name, e.g. 'input' or 'sample'
+ --profile  Run solution multiple times and compute average duration
+Example: mix run main.exs 01a sample
+```
+
+# Results
+
+The table below shows the average core runtime of each solution, recorded over an average of 20 runs. These times were recorded on a 2021 MacBook Pro using Elixir 1.17.3. The core runtime does not include the time it takes to read the input file and split it into lines, but does include any additional input parsing.
+
+| Day  | Part A (μs) | Part B (μs) |
+| :--: | ----------: | ----------: |
+|  01  |             |             |
+|  02  |             |             |
+|  03  |             |             |
+|  04  |             |             |
+|  05  |             |             |
+|  06  |             |             |
+|  07  |             |             |
+|  08  |             |             |
+|  09  |             |             |
+|  10  |             |             |
+|  11  |             |             |
+|  12  |             |             |
+|  13  |             |             |
+|  14  |             |             |
+|  15  |             |             |
+|  16  |             |             |
+|  17  |             |             |
+|  18  |             |             |
+|  19  |             |             |
+|  20  |             |             |
+|  21  |             |             |
+|  22  |             |             |
+|  23  |             |             |
+|  24  |             |             |
+|  25  |             |             |
