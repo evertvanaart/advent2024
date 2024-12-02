@@ -43,8 +43,8 @@ defmodule Solutions.Day02.PartB do
   defp is_safe(diffs), do: is_safe_diffs(diffs) or can_be_made_safe(diffs)
 
   defp can_be_made_safe(diffs) do
-    index = find_first_invalid_index(diffs, hd(diffs))
-    recombined_is_safe(diffs, index) or recombined_is_safe(diffs, 0)
+    invalid_index = find_first_invalid_index(diffs, hd(diffs))
+    recombined_is_safe(diffs, invalid_index) or recombined_is_safe(diffs, 0)
   end
 
   defp recombined_is_safe(diffs, invalid_index) do
