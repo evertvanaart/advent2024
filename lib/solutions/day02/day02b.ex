@@ -49,7 +49,7 @@ defmodule Solutions.Day02.PartB do
 
   defp recombined_is_safe(diffs, invalid_index) do
     is_safe_diffs(merge_diffs_at(diffs, invalid_index)) or
-    is_safe_diffs(merge_diffs_at(diffs, invalid_index + 1))
+      is_safe_diffs(merge_diffs_at(diffs, invalid_index + 1))
   end
 
   # Find the index of the first difference value that is larger than
