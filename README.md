@@ -26,7 +26,7 @@ The table below shows the average core runtime of each solution, recorded over a
 |  08  |         269 |       1,117 |
 |  09  |       6,744 |      15,837 |
 |  10  |       3,118 |       3,104 |
-|  11  |             |             |
+|  11  |       3,668 |      52,854 |
 |  12  |             |             |
 |  13  |             |             |
 |  14  |             |             |
