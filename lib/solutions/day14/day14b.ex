@@ -41,12 +41,13 @@ defmodule Solutions.Day14.PartB do
   end
 
   defp draw(steps, positions, {rows, cols}) do
-    lines = 0..(rows - 1)
-    |> Enum.map(fn y ->
-      0..(cols - 1)
-      |> Enum.map(fn x -> get_char({x, y}, positions) end)
-      |> Enum.join()
-    end)
+    lines =
+      0..(rows - 1)
+      |> Enum.map(fn y ->
+        0..(cols - 1)
+        |> Enum.map(fn x -> get_char({x, y}, positions) end)
+        |> Enum.join()
+      end)
 
     if Enum.any?(lines, fn line -> String.contains?(line, @target) end) do
       IO.puts("--- Step #{steps} ---")
