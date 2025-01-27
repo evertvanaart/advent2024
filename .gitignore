@@ -1,0 +1,13 @@
+# generated directories
+/_build/
+/.elixir_ls/
+/deps/
+
+# output executable
+advent2024
+
+# exclude input files
+/lib/solutions/*/input/
+
+# mix lock file
+mix.lock
